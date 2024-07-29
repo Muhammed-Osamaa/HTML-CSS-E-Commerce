@@ -1,0 +1,48 @@
+.baground-image {
+    background-image: url("../images/plans-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.main-listsection__lists{
+    margin: 40px auto;
+}
+.main-listsection__lists li {
+    width: 50%;
+    transition: transform 3s ;
+}
+.main-listsection__lists li:hover {
+    transform:scale(1.05);
+}
+
+
+.main-listsection__lists li   p  {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    margin: 20px 0;
+}
+
+.main-listsection__lists li h2 + p {
+    font-size: 14px;
+    color: #6c757d;
+}
+.main-listsection__lists li  img {
+    width: 200px;
+    height: 250px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    
+}
+
+.main-listsection__lists li  h2 {
+    margin-top: 42px;
+    color: #007bff;
+   font-size: 20px;
+}
+.fa-whatsapp {
+    font-size: 30px;
+}

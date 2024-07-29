@@ -1,0 +1,84 @@
+.bg-aboutus {
+    background-image: url("../images/bg.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    z-index: -1;
+    filter: grayscale(50%);
+}
+
+.about-us {
+    width: 70%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.about-us h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+}
+
+.about-us p {
+    font-size: 20px;
+    line-height: 2;
+    font-weight: bold;
+}
+.aboutus-ul{
+   
+    margin: 0;
+    padding : 0;
+    width: 60%;
+    margin: auto;
+    text-align: right;
+}
+.aboutus-li {
+    display: inline-block;
+    vertical-align: middle;
+   width: 30%;
+   margin: 10px 10px;
+}
+.aboutus-li div {
+    width: 140px;
+    height: 140px;
+    border: 2px solid pink ;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 2s;
+}
+
+.aboutus-li div:hover {
+    transform: scale(1.4);
+
+}
+
+.aboutus-li div a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(206, 255, 8);
+    border-bottom: 3px solid orange;
+    padding-bottom: 10px;
+}
+.aboutus-li div p {
+    font-weight: bold;
+    color: black;
+}
+.fa-mobile-phone {
+    vertical-align: middle;
+}
+
+.aboutus-li__li2 p {
+    margin: -2px;
+    font-size: 18px;
+    padding-top: 6px;
+    font-weight: bold;
+    
+}
+
+
+footer {
+    margin-top: 50px;
+}

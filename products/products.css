@@ -1,0 +1,171 @@
+
+.main-header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.main-header__logo a{
+    display: inline-block;
+    width: 80px;
+}
+.main-header__logo a svg {
+    width: 100%;
+}
+main {
+    padding-top: 70px;
+}
+.main-header__logo{
+    display: inline-block;
+}
+.main-header__nav {
+    display: inline-block;
+    width: calc(100% - 100px);
+    vertical-align: top;
+}
+.main-header__nav--ul{
+    text-align: right;
+
+}
+.main-header__nav--ul li {
+    display: inline-block;
+    margin-right: 40px;
+
+}
+
+.main-header__nav--ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+.main-header__nav--ul li a:hover,
+.main-header__nav--ul li a:active {
+    color: rgb(180, 105, 118);
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+}
+
+#main-listsection{ 
+    background-color: #ccd3db;
+    padding: 20px;
+    padding-top : 50px;
+   
+}
+
+.main-listsection__lists{
+    width: 80%;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px auto;
+    
+
+}
+.main-listsection__lists li {
+    display: inline-block;
+    width: 25%;
+    background-color: white;
+    margin: 10px;
+    padding: 33px 25px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px 4px #007bff;
+    margin-right:30px ;
+
+}
+
+.main-listsection__lists li:hover,
+
+.main-listsection__lists li:active {
+    box-shadow: 4px 4px 4px 4px #481d42;
+
+}
+
+.main-listsection__lists li a {
+    color: black;
+    text-decoration: none;
+}
+
+.main-listsection__lists li a img {
+    width: 200px;
+    height: 250px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    
+}
+
+.main-listsection__lists li a h2 {
+    margin-top: 42px;
+    color: #007bff;
+   font-size: 20px;
+}
+.discount {
+    font-size: 15px;
+    text-decoration: line-through ;
+    font-weight: 100;
+   
+}
+.material-symbols-outlined {
+    color: #cf0bb3;
+    
+}
+.main-listsection__lists li a  p  {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    margin: 20px 0;
+}
+
+.main-listsection__lists li a h2 + p {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+
+.main-listsection__lists li button {
+    padding: 10px 30px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    text-align:end;
+}
+.material-symbols-outlined1 {
+    vertical-align: bottom;
+    color: white;
+}
+
+.cl {
+    vertical-align: bottom;
+    color: white;
+}
+
+.main-listsection__list {
+    position: relative;
+}
+.main-listsection__lists--badge{
+    font-size: 12px !important;
+    color: white;
+    position: absolute;
+    top:-1;
+    margin: 0;
+    right: 0px;
+    background-color: red;
+    padding: 5px 15px;
+    
+}
+
+footer {
+    text-align: center; /* Centers the text horizontally */
+    padding: 20px; /* Adds padding around the text */
+    background-color: #141d2a; /* Sets a background color */
+    color: white; /* Sets the text color */
+}
+.fa-linkedin-square{
+    vertical-align: middle;
+}
